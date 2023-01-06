@@ -1,6 +1,6 @@
 import "./styles.css";
 import React, { Component } from "react";
-import Child from "../components/Child";
+import Child from "./components/Child";
 // export default function App() {
 // return (
 //   <div className="App">
@@ -12,14 +12,14 @@ import Child from "../components/Child";
 
 class App extends Component {
   state = {
-    runBefore: "first"
+    runBefore: "first",
   };
 
   constructor() {
     super();
     console.log("constructor");
     this.state = {
-      runBefore: "second"
+      runBefore: "second",
     };
   }
 
