@@ -1,4 +1,4 @@
-import "../src/styles.css";
+import "../styles.css";
 import React, { Component } from "react";
 // export default function App() {
 // return (
@@ -11,14 +11,14 @@ import React, { Component } from "react";
 
 class Child extends Component {
   state = {
-    runBefore: "first"
+    runBefore: "first",
   };
 
   constructor(props) {
     super(props);
     console.log("child constructor");
     this.state = {
-      runBefore: "second"
+      runBefore: "second",
     };
   }
 
